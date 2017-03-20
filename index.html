@@ -1,0 +1,682 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <title>Fees法緻</title>
+
+<!--CSS
+================================================== -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/foundation.css">  
+  <link rel="stylesheet" href="css/vendor/slick.css"/>
+  <link rel="stylesheet" href="css/vendor/slick-theme.css"/>
+  <link rel="stylesheet" href="css/all.css">
+
+<!--IE8支援支援HTML5
+================================================== -->
+<!--[if lt IE 9]>
+<script src="js/vendor/html5shiv.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">
+<![endif]-->
+
+<!--JS
+================================================== -->
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" ></script>  
+  <script src="js/vendor/jquery.touchSwipe.min.js"></script>
+  <script src="js/vendor/jquery.easing.1.3.js"></script>  
+  <script src="js/vendor/TweenMax.min.js"></script>
+  <script src="js/vendor/jquery.scrollmagic.min.js"></script>
+  <script src="js/vendor/foundation.min.js"></script>  
+  <script src="js/layout.js"></script> 
+</head>
+<body>
+
+<div class="main_vision">
+    <div class="circle">
+        <img src="images/img/index_02.png" alt="">
+        <a class="small_circle"> <img src="images/icon/01.png" alt=""></a>
+    </div>
+</div>
+<header class="header">  
+    <div class="row"> 
+      <div class="small-12 large-12 columns">
+            <div class="logo" title="Fees"><a href="index.html">Fees法緻</a></div>
+            <a class="menu hide-for-large-up" href="javascript:;"></a>
+            <a class="cart hide-for-large-up" href="shopping_cart.html"><span>2</span></a>
+            <a class="search hide-for-large-up" href="javascript:;"></a>
+
+            <!-- 電腦主選單 -->
+            <nav class="main_nav show-for-large-up">
+                  <ul class="sub1">
+                      <li><a class="active" href="javascript:;">認識 Fées</a></li>
+                      <li><a  href="javascript:;">線上購物</a>
+                          <ul class="sub2">
+                            <li><a href="product-list.html">系列產品</a></li>
+                            <li><a href="product-list.html">特惠組合</a></li>
+                            <li><a href="product-list.html">經典禮盒</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="javascript:;">最新消息</a></li>
+                      <li><a href="javascript:;">護膚知識</a></li>
+                      <li><a href="javascript:;">常見問題</a></li>
+                      <li><a href="javascript:;">銷售通路</a></li>
+                      <li><a href="javascript:;">聯絡我們</a></li>
+                  </ul>
+             </nav>
+             <!-- 電腦附選單 -->
+              <ul class="side_nav show-for-large-up">
+                  <li class="li1"><a><img src="images/icon/02.png" alt=""></a></li>
+                  <li class="li2"><a><img src="images/icon/03.png" alt=""></a></li>
+                  <li class="li3"><a><img src="images/icon/04.png" alt=""></a></li>
+                  <li class="li4" id="cart-open"><a><span>2</span><img src="images/icon/05.png" alt=""></a></li>
+                  <li class="li5" id="search-open"><a><img src="images/icon/06.png" alt=""></a></li>
+              </ul>
+
+              <!-- 副選單浮動系列 -->
+              <div class="search_bar" id="search_bar">
+                  <div class="row collapse">
+                        <div class="small-10 columns">
+                            <input type="text" placeholder="search...">
+                        </div>
+                        <div class="small-2 columns">
+                           <a href="javascript:;" class="search_btn"></a>
+                        </div>
+                    </div>
+              </div>
+              <div class="shopping_cart" id="shopping_cart">
+                  <div class="row collapse tittle">
+                        <div class="small-9 columns text-center">
+                            <span>項目</span>
+                        </div>
+                        <div class="small-3 columns text-center">
+                            <span>數量</span>
+                        </div>
+                    </div>
+
+                    <div class="row collapse content">
+                         <div class="small-12 columns display_table">
+                            <span class="pic table_cell"><img class="img-rwd" src="images/img/index_09.png" alt=""></span>
+                            <span class="name table_cell">嬰兒柔護泡泡露</span>
+                            <span class="num table_cell"><input type="text" value="1" class=""></span>
+                        </div>
+                         <div class="small-12 columns display_table">
+                            <span class="pic table_cell"><img class="img-rwd" src="images/img/index_09.png" alt=""></span>
+                            <span class="name table_cell">嬰兒柔護泡泡露</span>
+                            <span class="num table_cell"><input type="text" value="1" class=""></span>
+                        </div>
+                         <div class="small-12 columns display_table">
+                            <span class="pic table_cell"><img class="img-rwd" src="images/img/index_09.png" alt=""></span>
+                            <span class="name table_cell">嬰兒柔護泡泡露露露嬰兒柔護泡泡露露露</span>
+                            <span class="num table_cell"><input type="text" value="1" class=""></span>
+                        </div>
+                         <div class="small-12 columns display_table">
+                            <span class="pic table_cell"><img class="img-rwd" src="images/img/index_09.png" alt=""></span>
+                            <span class="name table_cell">嬰兒泡泡露</span>
+                            <span class="num table_cell"><input type="text" value="1" class=""></span>
+                        </div>
+                    </div>
+                    <div class="row collapse text-center">
+                         <div class="small-12 columns">
+                            <a class="button english">前往結帳</a>
+                         </div>
+                    </div>
+                   
+              </div>
+        </div>
+    </div>  
+
+</header>
+<!-- 手機板搜尋 -->
+<div class="row collapse search-mobile hidden-for-large-up">
+    <div class="small-12 medium-12 large-12 columns">
+            <input class="search-txt" type="text" placeholder="search" style="display: inline-block;">
+    </div>
+</div>
+<!-- 手機選單 -->
+  <ul class="small-block-grid-1 menu-mobile text-center hidden-for-large-up">
+    <li><a href="index.html">首頁</a></li>
+    <li><a href="javascript:;">認識 Fées</a></li>    
+    <li><a href="javascript:;">線上購物</a>
+        <ul class="sub-menu-mobile text-center">
+            <li><a href="product-list.html">系列產品</a></li>
+            <li><a href="product-list.html">特惠組合</a></li>
+            <li><a href="product-list.html">經典禮盒</a></li>
+        </ul>
+    </li>    
+    <li><a href="javascript:;">最新消息</a></li>
+    <li><a href="javascript:;">護膚知識</a></li>
+    <li><a href="javascript:;">常見問題</a></li>
+    <li><a href="javascript:;">銷售通路</a></li>
+    <li><a href="javascript:;">聯絡我們</a></li>
+    <li><a href="javascript:;">登入</a></li>
+  </ul>
+
+
+<section class="hotproduct_section">
+    <div class="title_set">
+         <h3>Hot Product</h3>
+         <span></span>
+         <h4>熱門商品排行</h4>
+    </div>
+
+    <div class="row full_row collapse hotproduct_row">
+        <div class="hotproduct_banner columns">
+              <img class="img-rwd" src="images/img/index_03.png" alt="">
+          
+        </div>
+
+        <div class="product_slider end columns" id="responsive_small">
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"><span class="tag">TOP1</span></div>
+                  <div class="slider_img">                        
+                        <a href="javascript:;">
+                            <img class="img-rwd" src="images/img/index_04.png">
+                        </a>
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">嬰兒柔護泡泡露</span>
+                        <span class="ml">清新300ml</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"><span class="tag">TOP2</span></div>
+                  <div class="slider_img">
+                        <a href="javascript:;">
+                          <img class="img-rwd" src="images/img/index_05.png">
+                        </a>
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">寶寶明星3件組</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"><span class="tag">TOP3</span></div>
+                  <div class="slider_img">
+                        <a href="javascript:;">
+                            <img class="img-rwd" src="images/img/index_06.png">
+                        </a>
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">嬰兒柔護泡泡露</span>
+                        <span class="ml">莓果300ml</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"></div>
+                  <div class="slider_img">
+                        <a href="javascript:;">
+                            <img class="img-rwd" src="images/img/index_04.png">
+                        </a>
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">嬰兒柔護泡泡露</span>
+                        <span class="ml">清新300ml</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"></div>
+                  <div class="slider_img">
+                        <img class="img-rwd" src="images/img/index_05.png">
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">嬰兒柔護泡泡露</span>
+                        <span class="ml">清新300ml</span>
+                      </a>
+                  </div>
+              </div>
+              <div class="slider_block">
+                  <div class="tag_wrap text-center"></div>
+                  <div class="slider_img">
+                        <img class="img-rwd" src="images/img/index_06.png">
+                        <a class="musk" href="javascript:;"></a>
+                        <a class="cart" href="cart">
+                            <img src="images/icon/09.png">
+                            <span>NT$ 500</span>
+                        </a>
+                  </div>
+                  <div class="slider_txt">
+                      <a href="product0001.html">
+                        <span class="name">嬰兒柔護泡泡露</span>
+                        <span class="ml">清新300ml</span>
+                      </a>
+                  </div>
+              </div>
+           </div>
+    </div>
+   
+
+</section>
+
+
+<section class="news_section">      
+    <div class="row full_row collapse">
+        <div class="small-12 medium-12 large-6 columns">
+            <img class="img-rwd" src="images/img/index_07.png">   
+        </div>
+        <div class="small-12 medium-12 large-6 columns news_block"> 
+            <div class="row">
+                 <div class="small-12 medium-12  large-12 columns"> 
+                      <div class="news_set">
+                            <span class="date">2015/06/16</span>
+                            <span class="tag">好孕講堂</span>
+                            <span class="txt">Fées法緻 xOtto2藝術美學粉絲團...</span>
+                            <a class="btn-mini"><span class="hide-for-medium-up">MORE</span></a>
+                      </div>
+                      <div class="news_set">
+                            <span class="date">2015/06/16</span>
+                            <span class="tag">新品上市</span>
+                            <span class="txt">白麝香 3月新品上市8折，趕快來瞧瞧...</span>
+                            <a class="btn-mini"><span class="hide-for-medium-up">MORE</span></a>
+                      </div>
+                      <div class="news_set">
+                            <span class="date">2015/06/16</span>
+                            <span class="tag">新品上市</span>
+                            <span class="txt">Fées頂級植萃保養，明周時尚大推薦！...</span>
+                            <a class="btn-mini"><span class="hide-for-medium-up">MORE</span></a>
+                      </div>
+                      <div class="news_set">
+                            <span class="date">2015/06/16</span>
+                            <span class="tag">好孕講堂</span>
+                            <span class="txt">Fées法緻 xOtto2藝術美學粉絲團...</span>
+                            <a class="btn-mini"><span class="hide-for-medium-up">MORE</span></a>
+                      </div>
+                 </div>
+            </div>           
+        </div>
+    </div>
+    <div class="row full_row collapse">
+         <div class="small-12 medium-12 large-6 large-push-6 columns">
+            <img class="img-rwd" src="images/img/index_08.png">   
+        </div>
+        <div class="small-12 medium-12 large-6 large-pull-6 columns people_block">  
+             <div class="row right">
+                 <div class="small-12 medium-12 columns"> 
+                    <h4>部落客愛用，大家都在問的商品！</h4>
+                    <p>時尚名媛楊秀容，不僅忙碌而且事業版圖越作越大，<br class="show-for-large-up">更在2014成為雙胞胎的幸福媽咪。<br>
+                    面對孕期中出現的不適狀況、像是水腫與妊娠紋的問題，<br class="show-for-large-up">都是採用什麼方式來改善呢？</p>
+                    <a class="button english">MORE</a>
+                 </div>
+            </div>
+        </div> 
+    </div>
+</section>
+
+<section class="tab_section">  
+    <ul class="tabs sub1" data-tab>
+        <li class="tab-title active"><a href="#panel2-1">主打商品</a></li>
+        <li class="tab-title"><a href="#panel2-2" role="tab">特惠禮合</a></li>
+        <li class="tab-title"><a href="#panel2-3" role="tab">經典禮盒</a></li>
+    </ul>
+
+    <div class="tabs-content">
+      <section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
+          <div class="mix">
+              <img class="mix_bg" src="images/img/index_13.png">
+              <div class="mix_bar">
+                    <img class="mix_bg" src="images/img/index_12.png">
+              </div>
+              <div class="mix_slider">
+                    <div class="product_slider " id="tab_banner">
+                        <div class="slider_block">
+                            <div class="slider_img">
+                                  <a href="javascript:;">
+                                       <img class="img-rwd" src="images/img/index_09.png">
+                                  </a>
+                                  <a class="musk" href="javascript:;"></a>
+                                  <a class="cart" href="cart">
+                                      <img src="images/icon/09.png">                                         
+                                  </a>
+                                  <div class="txt">
+                                      <span class="name">防護防曬乳</span>
+                                      <span class="ml">SPF25 ★★★40ml</span>
+                                      <span class="price">NT$ 500</span>
+                                  </div>  
+                                  
+                            </div>
+                        </div>
+                        <div class="slider_block">
+                            <div class="slider_img">
+                                  <a href="javascript:;">
+                                      <img class="img-rwd" src="images/img/index_10.png">
+                                  </a>
+                                  <a class="musk" href="javascript:;"></a>
+                                  <a class="cart" href="cart">
+                                      <img src="images/icon/09.png">
+                                  </a>
+                                  <div class="txt">
+                                      <span class="name">防護防曬乳</span>
+                                      <span class="ml">SPF25 ★★★40ml</span>
+                                      <span class="price">NT$ 500</span>
+                                  </div>  
+                            </div>
+                        </div>
+                        <div class="slider_block">
+                            <div class="slider_img">
+                                  <a href="javascript:;">
+                                      <img class="img-rwd" src="images/img/index_11.png">
+                                  </a>
+                                  <a class="musk" href="javascript:;"></a>
+                                  <a class="cart" href="cart">
+                                      <img src="images/icon/09.png">
+                                  </a>
+                                  <div class="txt">
+                                      <span class="name">防護防曬乳</span>
+                                      <span class="ml">SPF25 ★★★40ml</span>
+                                      <span class="price">NT$ 500</span>
+                                  </div>  
+                            </div>
+                        </div>
+                        <div class="slider_block">
+                            <div class="slider_img">
+                                  <a href="javascript:;">
+                                      <img class="img-rwd" src="images/img/index_09.png">
+                                  </a>
+                                  <a class="musk" href="javascript:;"></a>
+                                  <a class="cart" href="cart">
+                                      <img src="images/icon/09.png">
+                                  </a>
+                                  <div class="txt">
+                                      <span class="name">防護防曬乳</span>
+                                      <span class="ml">SPF25 ★★★40ml</span>
+                                      <span class="price">NT$ 500</span>
+                                  </div>  
+                            </div>
+                        </div>
+                    </div>
+              </div>
+           </div>
+      </section>
+      <section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
+        <h2>Second panel content goes here...</h2>
+      </section>
+      <section role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
+        <h2>Third panel content goes here...</h2>
+      </section>
+    </div>
+</section>
+
+<section class="brand_section">   
+     <div class="row">
+              <div class="small-12 medium-4 large-4 columns">        
+                  <a class="brand_block">
+                      <span class="musk muskA"></span>
+                      <img class="img-rwd" src="images/img/index_14.png" alt="">
+                  </a>
+              </div>
+               <div class="small-12 medium-4 large-4 columns">        
+                  <a class="brand_block">
+                      <span class="musk muskB"></span>
+                      <img class="img-rwd" src="images/img/index_15.png" alt="">
+                  </a>
+              </div> 
+              <div class="small-12 medium-4 large-4 columns">        
+                  <a class="brand_block">
+                      <span class="musk muskC"></span>
+                      <img class="img-rwd" src="images/img/index_16.png" alt="">
+                  </a>
+              </div>
+      </div>
+</section>
+
+
+<footer class="footer">
+      <div class="footer_map">
+          <div class="row">
+              <div class="small-12 medium-6 large-2 columns footer-menu-columns">
+                    <ul class="footer-menu">
+                      <li><a href="javascript:;">認識 Fées</a></li>
+                      <li><a href="javascript:;">品牌故事</a></li>
+                      <li><a href="javascript:;">品質與保證</a></li>
+                    </ul>
+              </div>
+              <div class="small-12 medium-6 large-2 columns footer-menu-columns">
+                    <ul class="footer-menu">
+                      <li><a href="javascript:;">最新消息</a></li>
+                      <li><a href="javascript:;">護膚知識</a></li>
+                      <li><a href="javascript:;">認證．心得</a></li>
+                    </ul>
+              </div>
+              <div class="small-12 medium-6 large-2 columns footer-menu-columns">
+                    <ul class="footer-menu">
+                      <li><a href="javascript:;">線上購物</a></li >
+                      <li><a href="javascript:;">銷售通路</a></li>
+                      <li><a href="javascript:;">常見問題</a></li>
+                    </ul>
+              </div>
+              <div class="small-12 medium-6 large-2 columns footer-menu-columns">
+                    <ul class="footer-menu">
+                      <li><a href="javascript:;">會員專區</a></li>
+                      <li><a href="javascript:;">購物車</a></li>
+                      <li><a href="javascript:;">隱私權政策</a></li>
+                    </ul>
+              </div>
+              <div class="small-12 medium-6 large-4 columns end footer-info-columns">
+                   <div class="row collapse postfix-round epaper_wrap">
+                        <div class="small-8 columns">
+                            <input type="text" placeholder="請輸入您的E-mail">
+                        </div>
+                        <div class="small-4 columns">
+                           <a href="javascript:;" class="button postfix">訂閱電子報</a>
+                        </div>
+                    </div>
+                   <p class="info">免付費客服專線 : 0800-000078<br>
+                   Address : 台北市內湖區瑞光路360號6樓</p>
+              </div>
+          </div>
+      </div>
+      <div class="footer_copyright">
+          <div class="row">
+              <p class="text-center">COPYRIGHT © Fées CO., LTD. ALL RIGHTS RESERVED.</p>
+          </div>
+      </div>
+</footer>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.3/slick.min.js"></script>
+<script>
+/*畫面下滑效果*/
+$(function(){
+            $('body').on('click', '.small_circle',function() {
+                    $("html, body").animate({ scrollTop: $('.header').offset().top }, 1000);
+
+            });
+
+    //結束
+});
+/*首頁動畫效果*/
+$(function(){
+
+    controller = new ScrollMagic();
+
+//第一幕
+    var animate1 = new TimelineMax()
+        .add([
+            TweenMax.from(".circle", 2, {
+            autoAlpha: 1, y:-20,x:0,autoAlpha: 0,delay:.2,ease:Quint.easeOut
+            }),
+            TweenMax.from(".small_circle", 2, {
+            autoAlpha: 1, y:-20,x:0,autoAlpha: 0,delay:.4,ease:Quint.easeOut
+            })
+    ]);
+    var scene1 = new ScrollScene({
+            triggerHook: ".5",
+            reverse: false
+        })
+        .setTween(animate1)
+        .addTo(controller);
+
+//第二幕
+    var animate2 = new TimelineMax()
+        .add([
+            TweenMax.from(".hotproduct_section", 2, {
+            autoAlpha: 1, y:-20,x:0,autoAlpha: 0,delay:0,ease:Quint.easeOut
+            })
+    ]);
+    var scene2 = new ScrollScene({
+            triggerElement: ".header",
+            triggerHook: "center",
+            reverse: false
+        })
+        .setTween(animate2)
+        .addTo(controller);
+
+ //第三幕   
+    var animate3 = new TimelineMax()
+        .add([
+            TweenMax.from(".news_section", 2, {
+            autoAlpha: 1, y:-20,x:0,autoAlpha: 0,delay:0,ease:Quint.easeOut
+            })
+    ]);
+    var scene3 = new ScrollScene({
+            triggerElement: ".hotproduct_section",
+            triggerHook: "0",
+            reverse: false
+        })
+        .setTween(animate3)
+        .addTo(controller);
+
+//第四幕   
+    var animate4 = new TimelineMax()
+        .add([
+            TweenMax.from(".tab_section", 2, {
+            autoAlpha: 1, y:-40,x:0,autoAlpha: 0,delay:0,ease:Quint.easeOut
+            })
+    ]);
+    var scene4 = new ScrollScene({
+            triggerElement: ".news_section",
+            triggerHook: "0",
+            reverse: false
+        })
+        .setTween(animate4)
+        .addTo(controller);
+ //第五幕   
+     // build tween
+    var animate5 = new TimelineMax()
+        .add([
+            TweenMax.from(".brand_section", 5, {
+            autoAlpha: 1, y:-20,x:0,autoAlpha: 0,delay:0,ease:Quint.easeOut
+            })
+    ]);
+    var scene5 = new ScrollScene({
+            triggerElement: ".tab_section",
+            triggerHook: "0",
+            reverse: false
+        })
+        .setTween(animate5)
+        .addTo(controller);
+
+
+
+});
+
+/*slider*/
+$(function(){
+  // 上方,五個slider
+  $('#responsive_small').slick({
+      lazyLoad: 'ondemand',
+      //infinite: false,
+      dots: true,
+      speed: 800,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+    // tab banner
+     $('#tab_banner').slick({
+      lazyLoad: 'ondemand',
+      //infinite: false,
+      dots: true,
+      speed: 800,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+});        
+</script>
+</body>
+</html>
