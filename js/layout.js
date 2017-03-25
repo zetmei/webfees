@@ -87,6 +87,46 @@ $(function(){
                  }
      );
 
+    //導覽列fixed        
+    var $header = $('header'),
+
+        _headerHeight = $header.outerHeight(),
+
+        _headerOffset = $header.offset();
+
+    $win.on('scroll', function() {
+
+        var _fixed = $header.hasClass('fixed');
+
+        if ($win.scrollTop() > _headerOffset.top) {
+
+            if (!_fixed) {
+
+                // $('.header-mobile').addClass('fixed');
+
+                $header.addClass('fixed');
+
+                // $('body').css('margin-top', _headerHeight);
+
+            }
+
+        } else {
+
+            if (_fixed) {
+
+                $header.removeClass('fixed');
+
+                // $('.header-mobile').removeClass('fixed');
+
+                // $('body').css('margin-top', 0);
+
+
+
+            };
+
+        };
+   });   
+
 
 
 //結束

@@ -25,7 +25,12 @@ body{
 	border-bottom: 1px solid #dddddd;
 	clear: both;
 	background-color: #fff;
+	width: 100%;
+    z-index: 999;
   	/*overflow: hidden;*/
+}
+.fixed{
+	position: fixed;
 }
 .logo{
 	position: absolute;
